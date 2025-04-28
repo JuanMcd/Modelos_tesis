@@ -13,6 +13,10 @@ Este repositorio contiene todos los scripts, configuraciones y firmwares desarro
 * Preparar y organizar el conjunto de datos de entrenamiento, validación y prueba.
 
 * Entrenar modelos ligeros de detección de objetos (YOLOv3-Tiny, YOLOv4-Tiny, YOLOv7-Tiny) en Google Colab utilizando GPU (T4, L4).
+  
+* Realizar la evaluación práctica de los modelos directamente sobre el dispositivo, usando streaming de video en tiempo real (RTSP) para validación visual.
+
+Todo el trabajo está orientado a lograr una detección eficiente de microsueños, distracción visual y uso de celular en conductores, dentro de escenarios de conducción urbana controlada.
 
 ## Estructura del Repositorio
 
@@ -38,7 +42,5 @@ Modelos_tesis/
 └── README.md                         # Este documento
 
 
-* Realizar la evaluación práctica de los modelos directamente sobre el dispositivo, usando streaming de video en tiempo real (RTSP) para validación visual.
 
-Todo el trabajo está orientado a lograr una detección eficiente de microsueños, distracción visual y uso de celular en conductores, dentro de escenarios de conducción urbana controlada.
 
