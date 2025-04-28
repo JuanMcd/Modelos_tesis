@@ -5,6 +5,9 @@ Repositorio asociado a la tesis de maestría:
 Autor: Juan Manuel Calvo Duque
 Fecha: 2025
 
+## Estructura del Repositorio
+
+```plaintext
 Modelos_tesis/
 │
 ├── scripts_preparacion/
@@ -15,13 +18,13 @@ Modelos_tesis/
 │   ├── entrenamiento_yolov3.py       # Entrenamiento YOLOv3-Tiny
 │   ├── entrenamiento_yolov4.py       # Entrenamiento YOLOv4-Tiny
 │   ├── entrenamiento_yolov7.py       # Entrenamiento YOLOv7-Tiny
-│   └── archivos_config/              # Configuraciones (.cfg, .yaml) personalizadas
+│   └── archivos_config/              # Configuraciones (.cfg, .yaml)
 │       ├── yolov3-tiny.cfg
 │       ├── yolov4-tiny.cfg
 │       └── yolov7-tiny.yaml
 │
 ├── scripts_evaluacion/
-│   ├── evaluacion_rtsp_AMB82.ino      # Firmware para inferencia en tiempo real y RTSP
+│   ├── evaluacion_rtsp_AMB82.ino      # Firmware para inferencia RTSP
 │
 ├── README.md                         # Este documento
 
