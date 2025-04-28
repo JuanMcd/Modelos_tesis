@@ -26,7 +26,7 @@ Modelos_tesis/
 ├── scripts_evaluacion/
 │   ├── evaluacion_rtsp_AMB82.ino      # Firmware para inferencia RTSP
 │
-├── README.md                         # Este documento
+└── README.md                         # Este documento
 
 Descripción General
 Este repositorio contiene todos los scripts, configuraciones y firmwares desarrollados para:
