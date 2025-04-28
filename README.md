@@ -5,6 +5,15 @@ Repositorio asociado a la tesis de maestría:
 Autor: Juan Manuel Calvo Duque
 Fecha: 2025
 
+## Descripción General
+Este repositorio contiene todos los scripts, configuraciones y firmwares desarrollados para:
+
+* Automatizar la captura de imágenes desde el dispositivo AMB82-Mini.
+
+* Preparar y organizar el conjunto de datos de entrenamiento, validación y prueba.
+
+* Entrenar modelos ligeros de detección de objetos (YOLOv3-Tiny, YOLOv4-Tiny, YOLOv7-Tiny) en Google Colab utilizando GPU (T4, L4).
+
 ## Estructura del Repositorio
 
 ```plaintext
@@ -28,14 +37,6 @@ Modelos_tesis/
 │
 └── README.md                         # Este documento
 
-Descripción General
-Este repositorio contiene todos los scripts, configuraciones y firmwares desarrollados para:
-
-* Automatizar la captura de imágenes desde el dispositivo AMB82-Mini.
-
-* Preparar y organizar el conjunto de datos de entrenamiento, validación y prueba.
-
-* Entrenar modelos ligeros de detección de objetos (YOLOv3-Tiny, YOLOv4-Tiny, YOLOv7-Tiny) en Google Colab utilizando GPU (T4, L4).
 
 * Realizar la evaluación práctica de los modelos directamente sobre el dispositivo, usando streaming de video en tiempo real (RTSP) para validación visual.
 
