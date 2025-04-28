@@ -31,10 +31,14 @@ Modelos_tesis/
 │   ├── entrenamiento_yolov3.py       # Entrenamiento YOLOv3-Tiny
 │   ├── entrenamiento_yolov4.py       # Entrenamiento YOLOv4-Tiny
 │   ├── entrenamiento_yolov7.py       # Entrenamiento YOLOv7-Tiny
-│   └── archivos_config/              # Configuraciones (.cfg, .yaml)
-│       ├── yolov3-tiny.cfg
-│       ├── yolov4-tiny.cfg
-│       └── yolov7-tiny.yaml
+│   ├── archivos_config/              # Configuraciones (.cfg, .yaml)
+│   │   ├── yolov3-tiny.cfg
+│   │   ├── yolov4-tiny.cfg
+│   │   └── yolov7-tiny.yaml
+│   └──  archivos_nb/              # archivos binarios cuantizados (.nb)
+│       ├── yolov3-tiny.nb
+│       ├── yolov4-tiny.nb
+│       └── yolov7-tiny.ynb
 │
 ├── scripts_evaluacion/
 │   ├── evaluacion_rtsp_AMB82.ino      # Firmware para inferencia RTSP
